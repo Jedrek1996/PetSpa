@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-green: #91ddcf;
+  --color-light-beige: #f7f9f2;
+  --color-light-pink: #e8c5e5;
+  --color-pink: #f19ed2;
+}
+
+.pink-text {
+  color: var(--color-pink);
+}
+
+@font-face {
+  font-family: "PlaywriteAUSA-Regular";
+  src: url("./assets/fonts/PlaywriteAUSA-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "PlaywriteAUSA-Regular", sans-serif;
+}
