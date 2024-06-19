@@ -3,7 +3,7 @@ import ClickableButton from "../../components/Buttons/ClickableButton";
 const AboutUs = () => {
   return (
     <section
-      className="flex justify-center items-center h-80 w-auto flex-col"
+      className="flex justify-center items-center h-80 w-full flex-col"
       style={{ background: "var(--color-green)" }}
     >
       <div className="text-center w-1/2 text-2xl text-yellow-50 mb-5 ">
