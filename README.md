@@ -39,16 +39,3 @@ Color Palette
 #E8C5E5 (Light Pink)
 #F19ED2 (Pink)
 
-✨ Features
-
-Nav Bar
-
-- Home Icon
-- About
-- Menu
-- Shop
-- News
-- Contact
-
-- Cart
-- Book Appointment
