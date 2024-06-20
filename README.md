@@ -1,3 +1,7 @@
+Deployed on: https://kkpetspa.netlify.app/
+Work in Progress. Not optimized for smaller screens yet.
+
+
 src/: This is where your application source code resides.
 
 components/: Reusable UI components that are used across different parts of the application.
