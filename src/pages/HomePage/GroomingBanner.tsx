@@ -25,7 +25,7 @@ const GroomingBanner = () => {
           </span>
         </div>
 
-        <div className="w:1/3 flex justify-center p-6 mt-6">
+        <div className="w:1/3 flex justify-center p-6 m-6">
           <img
             src={GroomingImage}
             className="w-full h-auto object-cover"
