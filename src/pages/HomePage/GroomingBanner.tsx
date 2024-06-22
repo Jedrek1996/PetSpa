@@ -6,7 +6,7 @@ const GroomingBanner = () => {
     <section className=" bg-yellow-50" style={{ color: "var(--color-pink)" }}>
       <div className=" mx-auto flex flex-col md:flex-row items-center">
         <div className="flex flex-col justify-center items-center mx-28 w-1/2">
-          <h5 className="my-6 text-3xl sm:p-10 sm:text-2xl md:text-3xl font-semibold text-center md:text-left">
+          <h5 className="my-6 text-3xl sm:p-10 sm:text-2xl md:text-3xl font-semibold text-center ">
             ˚˚ؘGrooming is our specialty༄♡˚
           </h5>
           <p
@@ -19,8 +19,8 @@ const GroomingBanner = () => {
             and pet taxi services for a stress-free grooming experience.
           </p>
 
-          <span className="space-x-14 sm:p-5">
-            <ClickableButton text="Spa Menu" />
+          <span className="mb-10 xl:gap-x-5">
+            <ClickableButton text="Spa Menu" className="m-5" />
             <ClickableButton text="Latest Promtion" />
           </span>
         </div>

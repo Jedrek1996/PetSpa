@@ -1,14 +1,14 @@
 import HomePage from "./pages/HomePage/HomePage";
 import MainContainer from "./pages/MainContainer";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import CarouselComp from "./pages/HomePage/CarouselComp";
+import About from "./pages/About/About";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainContainer />,
     children: [
       { path: "/", element: <HomePage /> },
-      { path: "test", element: <CarouselComp /> },
+      { path: "about", element: <About /> },
     ],
   },
 ]);

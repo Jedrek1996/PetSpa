@@ -46,7 +46,7 @@ const CarouselComponent = () => {
               {slidesData.map((slide, index) => (
                 <Slide key={index} index={index}>
                   <div>
-                    <p className="text-yellow-50 text-center font-extrabold text-2xl">
+                    <p className="text-yellow-50 text-center font-semibold text-2xl">
                       {slide.text}
                     </p>
                     <div className="mt-4 text-lg text-white">

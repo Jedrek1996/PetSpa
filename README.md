@@ -1,7 +1,6 @@
 Deployed on: https://kkpetspa.netlify.app/
 Work in Progress. Not optimized for smaller screens yet.
 
-
 src/: This is where your application source code resides.
 
 components/: Reusable UI components that are used across different parts of the application.
@@ -39,3 +38,8 @@ Color Palette
 #E8C5E5 (Light Pink)
 #F19ED2 (Pink)
 
+sm: - Small screens and up (min-width: 640px)
+md: - Medium screens and up (min-width: 768px)
+lg: - Large screens and up (min-width: 1024px)
+xl: - Extra large screens and up (min-width: 1280px)
+2xl: - 2x extra large screens and up (min-width: 1536px)
