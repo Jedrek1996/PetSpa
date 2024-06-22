@@ -1,7 +1,7 @@
 import React from "react";
 import ClickableButton from "../../components/Buttons/ClickableButton";
 
-const AboutUs = () => {
+const AboutUs: React.FC = () => {
   return (
     <section
       className="flex justify-center items-center h-80 w-full "
