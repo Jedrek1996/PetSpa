@@ -17,8 +17,12 @@ const NavBar: React.FC = () => {
 
   return (
     <nav
-      className=" flex items-center w-full fixed top-0 z-50"
-      style={{ background: "var(--color-green)" }}
+      className=" flex items-center w-full fixed top-0 z-50 rounded-bl-full"
+      style={{
+        background: "var(--color-green)",
+        borderBottom: "4px solid #e8c5e5df",
+        zIndex: 1000,
+      }}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
