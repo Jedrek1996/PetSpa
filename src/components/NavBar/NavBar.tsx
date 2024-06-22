@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
-import NavBarButton from "./NavBarButton";
+import NavBarButton from "../Buttons/NavBarButton";
 import Links from "../../utils/Links";
 import petIcon from "../../assets/icons/petIcon.png";
 import { BsCart2 } from "react-icons/bs";
@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
             <a href="/">
               <img
                 src={petIcon}
-                className="h-9 mr-2 text-white"
+                className="h-9 mr-3 text-white"
                 alt="Pet Icon"
               />
             </a>
@@ -46,7 +46,7 @@ const NavBar: React.FC = () => {
 
           <div className="flex items-center space-x-4">
             <button>
-              <BsCart2 className="text-yellow-50 text-2xl mr-2" />
+              <BsCart2 className="text-yellow-50 text-2xl mr-2 hover:text-pink-300 transition duration-300" />
             </button>
             <ClickableButton text="Book Appointment" />
           </div>

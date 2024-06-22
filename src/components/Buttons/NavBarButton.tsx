@@ -17,7 +17,7 @@ const NavBarButton: React.FC<NavBarButtonProps> = ({
   return (
     <Link
       to={to}
-      className={`px-4 py-2 text-yellow-50 hover:bg-pink-300 rounded-xl ${
+      className={`px-4 text-yellow-50 hover:bg-pink-300 rounded-xl transition duration-300 ${
         isActive ? "underline" : ""
       }`}
       onClick={onClick}

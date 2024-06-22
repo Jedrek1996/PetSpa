@@ -22,4 +22,30 @@
 
 body {
   font-family: "PlaywriteAUSA-Regular", sans-serif;
+
+  /* Firefox Scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #e8c5e5 #91ddcf;
+}
+
+/* WebKit Browsers */
+/* Chrome */
+::-webkit-scrollbar {
+  background-color: #91ddcf;
+  width: 13px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #91ddcf94;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e8c5e5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f19ed3d8;
 }

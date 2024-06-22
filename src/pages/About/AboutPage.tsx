@@ -1,6 +1,6 @@
 import React from "react";
 
-const About: React.FC = () => {
+const AboutPage: React.FC = () => {
   return (
     <section
       className="py-12 h-auto md:h-screen"
@@ -41,4 +41,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default AboutPage;
